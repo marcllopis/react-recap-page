@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# React Recap Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Recap of everything we saw so far in WCS bootcamp in the React block.
+
+The site is deployed [here](https://enchanting-nougat-ffe8e6.netlify.app/)
+
+## How does it work
+
+The `App.js` file is there just to group the navbar and the main section. The logic to render one component per section is done in `MainHandler.js` and all options are rendered in `MainMenu.js`.
+
+The `Sections` folder contains all parts to recap. Just open each section folder to check the related code with some comments and see the result in the browser by clicking that section button.
+
+You can go back to the main section by clicking `Home` or visit the Github url
 
 ## Available Scripts
 

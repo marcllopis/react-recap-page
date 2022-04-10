@@ -17,6 +17,7 @@ function App() {
         <p>
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://github.com/marcllopis/react-recap-page"
           >
             Github
