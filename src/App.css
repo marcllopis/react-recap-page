@@ -51,3 +51,8 @@ nav :hover {
 .centered-content {
   width: 60%;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}

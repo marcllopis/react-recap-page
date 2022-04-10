@@ -14,8 +14,14 @@ function App() {
     <>
       <nav>
         <p onClick={() => handleSection("home")}>Home</p>
-        <p>Github</p>
-        <p>Oddissey</p>
+        <p>
+          <a
+            target="_blank"
+            href="https://github.com/marcllopis/react-recap-page"
+          >
+            Github
+          </a>
+        </p>
       </nav>
       {status === "home" ? (
         <MainMenu action={handleSection} />
