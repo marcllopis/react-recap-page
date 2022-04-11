@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import MainMenu from "./MainMenu";
+import Navbar from "./Navbar";
 import { optionToShow } from "./MainHandler";
 import "./App.css";
 
@@ -12,18 +13,7 @@ function App() {
 
   return (
     <>
-      <nav>
-        <p onClick={() => handleSection("home")}>Home</p>
-        <p>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://github.com/marcllopis/react-recap-page"
-          >
-            Github
-          </a>
-        </p>
-      </nav>
+      <Navbar action={handleSection} />
       {status === "home" ? (
         <MainMenu action={handleSection} />
       ) : (
